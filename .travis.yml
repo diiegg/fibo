@@ -9,7 +9,7 @@ before_script:
 script:
 - go test -v -covermode=count -coverprofile=coverage.out ./...
 - $GOPATH/bin/goveralls -service=travis-ci
-- $HOME/gopath/bin/goveralls -coverprofile=coverage.out -service=travis-ci -repotoken 
+
 env:
   global:
     secure: lrdyEhbx4x9xHjnhwVPXjgz87ym18/Z/5mEA9ZLG5QIYxb/CAd0tr7UIYbX41DaN56btStDXMbZqqLeeirHaYfS/O+pDCNEVv7FT7KLkf9CWgbp70bdKH6M/DmaIzs2qtFehQhOJH3qXAHMyRzM/VULdYBmCu2D395PN/HJ91pHoiMBSC5l9Z06XiIRXzZTRxajfPKbnJRcxfM0jZ3IQtLRjIaj5PwiaK+8Qw1Vuk0e8ymbGVK+fofNlmHV5/KE8UYyggu0Qda+GKuzuJurRzoUzvvyyIquRX1Sux0UtgLgyk/DTa+rrc7Wkf/t+oMxZsclbABHcKbDZRZyUO3y4Ih3NHojxqZLXaoYjHMQCG4WEcV/Sm2jfL54ulBOL4Mi+wm/l1SuKX8ceSbCQi9mV/LlkQOcXIu/+rdVbJyOxa02hir1FNdOjbBDy/V5L+IR8zL1QW7uSCoRdtvGoZ5cqvNH2K0lqNWMJkvJ4RlUeeioimssufP/QyXJBr/IzmqTrudr9KoIdIwca83bsR5CQgk1Yj/MZ5moP3QWM2amY5XYsLN7K/FNILCsNXfN8GlbRR0jHVfywB3enViO6C6gvjcbCQUiDIeqMqoBMCecAj7WDh5hsmKcVjV683q5M04MMZsEmh6mLQxSjGTZ1F/FN8wimPNIdYRJ6M48YdBx9el4=
