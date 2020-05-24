@@ -19,9 +19,7 @@ A example of the serie shoulb be like this .....
 
 ### Example method
 
-In this case Fibonacci series is an integer sequence where every number after the first two is the sum of the two preceding one
-
-We introduce the func fibonacci(), which receives an int and returns another int, where fibonacci is calculates as as sum of n-1th term and n-2th term.
+In this case Fibonacci series is an integer sequence where every number after the first two is the sum of the two preceding one which receives an int and returns another int, where fibonacci is calculates as as sum of n-1th term and n-2th term.
 
 ```sh
 F(n)=F(n-1)+F(n-2)
