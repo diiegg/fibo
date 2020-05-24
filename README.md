@@ -4,7 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/diiegg/fibo)](https://goreportcard.com/report/github.com/diiegg/fibo)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/diiegg/fibo/blob/master/MIT.txt)
 [![Coverage Status](https://coveralls.io/repos/github/diiegg/fibo/badge.svg)](https://coveralls.io/github/diiegg/fibo)
-
+[![Build Status](https://cloud.drone.io/api/badges/diiegg/fibo/status.svg)](https://cloud.drone.io/diiegg/fibo)
 
 # Fibonacci Series Algorithm in GO with a variable declaration
 
